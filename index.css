@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fantasy;
+   
+}
+.main-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.scoreboard-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 670px;
+    height: 500px;
+    gap:5rem;
+    text-align: center;
+    opacity: 0.9;
+    border-radius: 150px;
+    
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(231,173,55,1) 100%);
+}
+.btn{
+    border: none;
+    width: 50px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.btn:hover{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.sb-1,.sb-2{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 1rem;
+    
+}
+.btn-container{
+ display: grid;
+ grid-template-columns: auto auto;
+ grid-template-rows: auto auto;
+ gap:1rem;
+}
+.team{
+    letter-spacing: 5px;
+    color:white;
+}
+.score{
+    width: 100px;
+    height: 40px;
+    background: rgb(232,166,169);
+    background: linear-gradient(90deg, rgba(232,166,169,1) 0%, rgba(203,130,130,1) 32%, rgba(232,166,169,1) 100%);
+}

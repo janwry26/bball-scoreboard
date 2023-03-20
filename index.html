@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBall Scoreboard</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="scoreboard-container">
+            <div class="sb-1">
+                <h1 class="team">Janwry</h1>
+                <h1 id="score" class="score">0</h1>
+                <div class="btn-container">
+                    <button class="btn" onclick="add1()">+1</button>
+                    <button class="btn" onclick="add2()">+2</button>
+                    <button class="btn" onclick="add3()">+3</button>
+                    <button class="btn" onclick="reset()"> reset</button>
+                </div>
+            </div>
+               
+            <div class="sb-2">
+                <h1 class="team">CJ</h1>
+                <h1 id="scoreGuest" class="score">0</h1>
+                <div class="btn-container">
+                    <button class="btn" onclick="add1Guest()">+1</button>
+                    <button class="btn" onclick="add2Guest()">+2</button>
+                    <button class="btn" onclick="add3Guest()">+3</button>
+                    <button class="btn" onclick="resetGuest()"> reset</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
